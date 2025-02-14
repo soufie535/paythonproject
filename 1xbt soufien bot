@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيقات 1xBet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>تطبيقات 1xBet</h1>
+        <button onclick="switchApp('crash')">وقت انفجار الطائرة (Crash)</button>
+        <button onclick="switchApp('aviator')">وقت انفجار Aviator</button>
+        <button onclick="switchApp('applePicker')">Apple Picker</button>
+
+        <div id="app-container">
+            <!-- سيتم عرض الواجهات هنا -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
